@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": ["./vite.config.ts", "./**/*.tsx", "./**/*.ts", "./**/*.json", "./**/*.css", "src/components/adminComponents/buyerDetail/transactionTable/TransactionTable.jsx"],
+  "exclude": [ "../node_modules", "server"]
+}

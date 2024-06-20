@@ -1,0 +1,109 @@
+.row {
+    border-bottom: #D9D9D9 solid 0px;
+}
+
+.lastRow {
+    border-bottom: transparent solid 0px;
+}
+
+.header {
+    border: 0px solid blue;
+}
+
+
+.redCircle .statusCircle {
+    color: #B62A2A;
+    font-size: 10px;
+}
+
+.orangeCircle .statusCircle {
+    color: #A9571B;
+    font-size: 10px;
+}
+
+.strongGreenCircle .statusCircle {
+    color: #12974B;
+    font-size: 10px;
+}
+
+.darkGreenCircle .statusCircle {
+    color: #2D5C41;
+    font-size: 10px;
+}
+
+.disabledCircle .statusCircle {
+    color: #949494;
+    font-size: 10px;
+}
+
+.strong {
+    font-weight: 700;
+}
+
+.truncateRenderCell {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* font-size: 0.875rem; */
+}
+
+.pendingDispute .dispute {
+    /* text strong and italic */
+    font-style: italic;
+    font-weight: 700;
+
+}
+
+.rejectedDispute .dispute {
+    /* text  color #FF6CB3 */
+    color: #FF6CB3;
+}
+
+.approvedDispute .dispute {
+    /* text color #00B533 */
+    color: #00E462;
+}
+
+.cell {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.customCredits {
+    font-weight: 500;
+    color: #01B1F4;
+}
+
+.leadName {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+.leadName span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.new {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.evenRow {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.secondaryButton {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    letter-spacing: 0.17px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}

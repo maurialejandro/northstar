@@ -1,0 +1,76 @@
+.row {
+    border-bottom: 0px;
+}
+
+.lastRow {
+    border-bottom: 0px;
+}
+
+.header {
+    border: 0px;
+}
+
+.redCircle .statusCircle {
+    color: #B62A2A;
+    font-size: 10px;
+}
+
+.orangeCircle .statusCircle {
+    color: #A9571B;
+    font-size: 10px;
+}
+
+.strongGreenCircle .statusCircle {
+    color: #12974B;
+    font-size: 10px;
+}
+
+.darkGreenCircle .statusCircle {
+    color: #2D5C41;
+    font-size: 10px;
+}
+
+.disabledCircle .statusCircle {
+    color: #949494;
+    font-size: 10px;
+}
+
+.strong {
+    font-weight: 700;
+}
+
+.ellipsisVertical {
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(217, 217, 217, 0.3);
+    transition: 0.2s;
+}
+
+.trashcan {
+    font-size: 20px;
+    width: 20px;
+    padding: 0px 5px;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(217, 217, 217, 0.3);
+    transition: 0.2s;
+}
+
+.row:hover .ellipsisVertical,
+.row:hover .trashcan {
+    color: #d9d9d9;
+}
+
+.row:hover .trashcan:hover {
+    color: red;
+}
+
+.nonModifiableCells {
+    cursor: default;
+}
+
+.modifiableCells {
+    cursor: pointer;
+}

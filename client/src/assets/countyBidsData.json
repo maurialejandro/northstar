@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Broward, FL",
+    "current_bid": 163,
+    "current_high_bid": 210,
+    "success_rate": "35",
+    "id": 1
+  },
+  {
+    "name": "Broward, FL",
+    "current_bid": 104,
+    "current_high_bid": 31,
+    "success_rate": "47",
+    "id": 2
+  },
+  {
+    "name": "Broward, FL",
+    "current_bid": 216,
+    "current_high_bid": 12,
+    "success_rate": "75",
+    "id": 3
+  },
+  {
+    "name": "Broward, FL",
+    "current_bid": 207,
+    "current_high_bid": 153,
+    "success_rate": "46",
+    "id": 4
+  },
+  {
+    "name": "Broward, FL",
+    "current_bid": 179,
+    "current_high_bid": 230,
+    "success_rate": "44",
+    "id": 5
+  },
+  {
+    "name": "Broward, FL",
+    "current_bid": 173,
+    "current_high_bid": 117,
+    "success_rate": "26",
+    "id": 6
+  },
+  {
+    "name": "Broward, FL",
+    "current_bid": 43,
+    "current_high_bid": 165,
+    "success_rate": "71",
+    "id": 7
+  },
+  {
+    "name": "Broward, FL",
+    "current_bid": 42,
+    "current_high_bid": 47,
+    "success_rate": "43",
+    "id": 8
+  },
+  {
+    "name": "Broward, FL",
+    "current_bid": 192,
+    "current_high_bid": 163,
+    "success_rate": "67",
+    "id": 9
+  },
+  {
+    "name": "Broward, FL",
+    "current_bid": 64,
+    "current_high_bid": 35,
+    "success_rate": "28",
+    "id": 10
+  }
+]
